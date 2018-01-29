@@ -1,0 +1,87 @@
+/*
+Theme Name: Mist Child
+Description: Child Theme for Mist Wordpress Theme
+Author: zozothemes
+Version: 1.0.1
+Template: mist
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options
+Text Domain: zozothemes
+*/
+
+@import url("https://use.typekit.net/jev0jkw.css");
+
+p {
+	font-family: acumin-pro !important;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.headline,
+.headline span 
+{
+	font-family: acumin-pro-wide !important;
+	font-weight: 100 !important;
+	text-shadow: 0 0 0 #fff;
+	text-transform: capitalize !important;
+}
+h4, h5 
+{
+	color: #463b3b !important;
+	font-family: acumin-pro-extra-condensed !important;
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    text-transform: uppercase; !important;
+}
+h4 
+{
+    font-weight: 300 !important;
+    font-size: 48px !important;
+    text-transform: capitalize !important;
+}
+.button  {
+	font-family: acumin-pro-extra-condensed !important;
+	font-weight: 300 !important;
+	font-size: 26px !important;
+	letter-spacing: .03em;
+	padding: 15px 45px !important;
+	text-transform: uppercase;
+}
+.button--secondary span {
+	color: #feabad !important;
+	text-decoration: underline !important;
+}
+.button--secondary  {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.text-button, .navbar-brand, .menu-item a  {
+	font-family: acumin-pro-extra-condensed !important;
+	font-weight: 300 !important;
+	font-size: 28px !important;
+}
+.tp-caption strong {
+	/*font-weight: 500;*/
+}
+.tp-caption span {
+	/*color: #fff !important;*/
+}
+.navbar-brand {
+	color: #fff !important;
+}
+
+.menu-item a {
+	font-size: 24px !important;
+	text-transform: uppercase;
+}
+
+.is-reversed * {
+	color: #fff !important;
+}
+
+
+
+#hero-section {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
