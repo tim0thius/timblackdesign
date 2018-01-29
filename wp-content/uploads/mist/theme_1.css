@@ -222,8 +222,6 @@ ul.epl-author-tabs li.epl-author-current, ul.property_search-tabs li.epl-sb-curr
 body { font-family: Arimo;font-size: 14px;color: #333333;line-height: 25px; }
 .ui-widget, .vc_tta-accordion .vc_tta-panel-title { font-family: Arimo;font-size: 14px;color: #333333;line-height: 25px; }
 .is-sticky .header-main-section { background-color: #ffffff !important; }
-@media only screen and (min-width: 768px) {.header-section.type-header-7 .navbar-header, .header-section.type-header-8 .navbar-header { max-width: 248px; }
-}
 .fullwidth .container { max-width: 1200px; }
 .boxed-header .is-sticky .header-main-section, .boxed .is-sticky .header-main-section { max-width: 1200px; }
 .dropdown-menu { min-width: 200px; }
