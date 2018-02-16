@@ -119,7 +119,7 @@ if( isset( $header_mini_cart ) && $header_mini_cart == '' || $header_mini_cart =
 			<!-- ==================== Header Right ==================== -->
 			<ul class="nav navbar-nav navbar-right zozo-main-bar">
 				<li><?php zozo_header_content_area( 'main-navigation' ); ?></li>
-				<li id="header-main__cta"><a href="#section-contact" data-target="#section-contact" class="block-feature__button" >set up a free consultation</a></li>
+				<!-- <li id="header-main__cta"><a href="#section-contact" data-target="#section-contact" class="block-feature__button" >set up a free consultation</a></li> -->
 				
 				<?php if( ZOZO_WOOCOMMERCE_ACTIVE ) {
 					if ( isset($header_mini_cart) && $header_mini_cart == 'yes' ) { ?>

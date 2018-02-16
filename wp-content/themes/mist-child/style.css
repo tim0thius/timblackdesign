@@ -34,9 +34,11 @@ h4, h5
 }
 h4 
 {
-    font-weight: 300 !important;
-    font-size: 48px !important;
-    text-transform: capitalize !important;
+	color: #333 !important;
+	font-family: acumin-pro-wide !important;
+    font-weight: 200 !important;
+    font-size:36px !important;
+    text-transform: none !important;
 }
 .button  {
 	font-family: acumin-pro-extra-condensed !important;
