@@ -109,8 +109,9 @@ if( isset( $header_mini_cart ) && $header_mini_cart == '' || $header_mini_cart =
 				
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> - <?php bloginfo( 'description' ); ?>" rel="home">
 				
-				<?php	echo '<img class="img-responsive zozo-standard-logo" src="http://black-design.local/wp-content/uploads/2018/02/tbd_logo.svg" alt="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" width="175" height="" />';
+				<?php	//echo '<img class="img-responsive zozo-standard-logo" src="http://black-design.local/wp-content/uploads/2018/02/tbd_logo.svg" alt="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" width="175" height="" />';
 				?>
+				<span class="img-responsive zozo-standard-logo"><?php tbd_get_svg('wordmark'); ?></span>
 				
 			</a>
 		</div>
