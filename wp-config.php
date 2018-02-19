@@ -87,4 +87,4 @@ if ( ! defined( 'ABSPATH' ) )
 require_once ABSPATH . 'wp-settings.php';
 
 /* Comet Cache setting for local */
-define('LOCALHOST', TRUE);
+define('LOCALHOST', FALSE);
