@@ -1,0 +1,28 @@
+#header-main {
+	padding: 50px 0;
+}
+#header-main__cta, #menu-item-7812, #menu-item-7737 {
+	height: 76px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+	a {
+		margin: 0;
+		padding: 0;
+		height: 48px;
+		line-height: 48px;
+	}
+}
+
+#header-main #main-menu {
+	li {
+		display: none;
+
+		&:last-child {
+			@media screen and ( min-width: 992px  ) {
+				display: block;
+			}
+			
+		}
+	}
+}
