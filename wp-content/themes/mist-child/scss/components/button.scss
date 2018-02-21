@@ -1,0 +1,75 @@
+.component-button--main {
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-family: $font-link;
+	font-size: 22px !important;
+	height: 58px;
+	letter-spacing: .08em;
+	line-height: 1;
+	padding: 15px 40px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all .4s;
+	width: 306px;
+
+	&:hover {
+		background-color: white !important;
+		border-color: transparent;
+		color: $red !important;
+	}
+
+	@media screen and ( max-width: 676px ) {
+		width: 100%;
+		font-size: 18px;
+	}	
+
+	@media screen and ( max-width: 676px ) {
+		padding: 15px 20px;
+	}
+}
+
+.component-button--link {
+    color: #ffa9b9;
+    font-size: 22px;
+    font-family: acumin-pro-extra-condensed;
+    font-weight: 600;
+    letter-spacing: .08em;
+    margin-left: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 58px;
+    display: flex;
+    padding: 16px 0;
+    margin-top: -4px;
+    transition: color .5s;
+
+	&:hover {
+		color: white;
+		text-decoration: underline;
+	}
+}
+
+.component-button--close {
+	color: #ddd;
+	cursor: pointer;
+	font-size: 36px;
+	font-family: $font-headline;
+	margin-right: 30px;
+	margin-top: 8px;
+
+	&:hover {
+		color: $aqua;
+	}
+
+    @media screen and ( min-width: 767px  ) {
+    	font-size: 60px;
+    	margin: 0;
+		position: fixed;
+		top: 60px;
+		right: 60px;
+    }
+}

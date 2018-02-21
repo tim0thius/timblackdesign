@@ -2,15 +2,22 @@
 	padding: 50px 0;
 }
 #header-main__cta, #menu-item-7812, #menu-item-7737 {
-	height: 76px;
-    display: flex;
+	height: 58px;
+    display: none;
     align-items: center;
     margin-left: 30px;
 	a {
-		margin: 0;
-		padding: 0;
-		height: 48px;
-		line-height: 48px;
+	    margin: 0;
+	    padding: 15px 40px !important;
+	    height: 58px;
+	    line-height: 58px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	@media screen and ( min-width: 992px ) {
+		display: flex;
 	}
 }
 
