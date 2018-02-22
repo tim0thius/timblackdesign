@@ -241,13 +241,19 @@
 }
 
 .feature--large {
-    min-height: 800px;
+    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     .parallax-title:after {
 	    bottom: -35px;
+	}
+
+	.caption {
+		font-size: 15px;
+		line-height: 22px;
+		font-weight: bold;
 	}
 
     @media screen and ( min-width: 425px ) {
