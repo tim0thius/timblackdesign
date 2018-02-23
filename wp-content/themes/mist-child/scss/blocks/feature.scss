@@ -196,7 +196,7 @@
 	display: flex;
     justify-content: flex-start;
     position: absolute;
-    left: 65%;
+    left: 60%;
     top: -60px;
     width: 70%;
     align-items: center;
@@ -252,8 +252,9 @@
 
 	.caption {
 		font-size: 15px;
-		line-height: 22px;
+		line-height: 25px;
 		font-weight: bold;
+		margin-top: 25px;
 	}
 
     @media screen and ( min-width: 425px ) {
@@ -267,6 +268,8 @@
 }
 
 #section__responsive-website {
+
+	margin-top: -120px;
 	
 	@media screen and ( max-width: 425px ) {
 		overflow: hidden;
