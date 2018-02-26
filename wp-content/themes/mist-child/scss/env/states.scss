@@ -1,3 +1,26 @@
+.section-contact {
+
+    input {
+    	height: 50px !important;
+    	padding-left: 20px;
+
+    	&[type="button"] {
+    		color: white;
+    	}
+    }
+
+    textarea {
+	    padding-left: 20px;
+	    padding-top: 10px;
+	}
+
+    @media screen and ( max-width: 767px ) {
+    	p {
+    		display: none;
+    	}
+    }
+}
+
 #section-contact {
     display: flex;
     align-items: flex-start;
