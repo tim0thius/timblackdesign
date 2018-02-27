@@ -308,6 +308,9 @@
 
 	@media screen and ( max-width: 425px ) {
 		margin-bottom: 75px;
+	}
+	@media screen and ( max-width: 767px ) {
+		border-bottom: 0;
 	}	
 	
 }
