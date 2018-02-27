@@ -324,6 +324,7 @@
 #section-aboutme, #section-footer-contact {
 	.vc_column_container>.vc_column-inner {
 		margin: 0 15px;
+		width: calc(100% - 30px);
 	}
 }
 
