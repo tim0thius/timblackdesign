@@ -24,12 +24,10 @@
 	}
 
 	@media screen and ( max-width: 676px ) {
-		width: 100%;
 		font-size: 18px;
-	}	
-
-	@media screen and ( max-width: 676px ) {
+		max-width: 320px;
 		padding: 15px 20px;
+		width: 100%;
 	}
 }
 
@@ -51,6 +49,9 @@
 	&:hover {
 		color: white;
 		text-decoration: underline;
+	}
+	@media screen and ( max-width: 767px ) {
+		margin-left: 0;
 	}
 }
 
