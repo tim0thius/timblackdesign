@@ -25,8 +25,14 @@
 	}
 }
 
-#section-footer-contact .zozo-parallax-header {
-    margin-bottom: 0;
+#section-footer-contact {
+	
+	.zozo-parallax-header {
+	    margin-bottom: 0;
+	}
+	 textarea {
+	    height: 120px;
+	}
 }
 
 button {
