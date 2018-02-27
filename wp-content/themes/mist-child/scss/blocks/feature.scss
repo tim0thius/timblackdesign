@@ -318,7 +318,8 @@
 #section__responsive-website, #section__brand-identity {
 	
 	@media screen and ( max-width: 767px ) {
-		margin: 20px 0;
-    	min-height: 0;
+		margin: 50px 0 0 !important;
+		min-height: 0;
+		padding: 0 0 50px !important;
 	}
 }
