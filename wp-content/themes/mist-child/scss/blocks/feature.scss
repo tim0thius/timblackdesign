@@ -291,6 +291,9 @@
 		    margin-left: -132px;
 		}		
 	}
+	@media screen and ( min-width: 767px ) and (max-width: 1028px ){
+		margin-top: -50px;
+	}
 }
 #section__brand-identity {
 	margin-bottom: 140px;
