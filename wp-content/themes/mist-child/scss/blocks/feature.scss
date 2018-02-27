@@ -321,6 +321,12 @@
 	z-index: 1;
 }
 
+#section-aboutme, #section-footer-contact {
+	.vc_column_container>.vc_column-inner {
+		margin: 0 15px;
+	}
+}
+
 
 #section__responsive-website, #section__brand-identity {
 
