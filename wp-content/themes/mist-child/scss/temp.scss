@@ -1,0 +1,70 @@
+// .parallax-title:after {
+//     background-color: transparent;
+//     background-image: linear-gradient(-90deg, #e72f3b, #7626bd 25%, #16c1cf 95%, #16ce8d 100%);
+//     width: 200px;
+//     height: 2px;
+// }
+
+.has-hidden-children {
+	h4 {
+		@extend .is-invisible;
+	}
+}
+
+.nf-form-fields-required {
+    display: none;
+}
+
+.nf-field-container {
+    margin-bottom: 10px !important;
+}
+
+#section-aboutme {
+	.image-left .vc-zozo-image-wrapper {
+		background-position: 100% center;
+	}
+}
+
+#section-footer-contact {
+	
+	.zozo-parallax-header {
+	    margin-bottom: 0;
+	}
+	 textarea {
+	    height: 120px;
+	}
+}
+
+button {
+    border-radius: 4px !important;
+    color: white !important;
+    min-height: 60px !important;
+    font-family: acumin-pro;
+    font-size: 16px !important;
+}
+
+#zozo_wrapper.wrapper-class {
+	// overflow: hidden;
+}
+.zozo-standard-logo, .zozo-sticky-logo {
+    width: 200px;
+}
+@media screen and ( max-width: 425px  ) {
+	.zozo-standard-logo, .zozo-sticky-logo {
+		width: 140px;
+	}
+}
+.vc_progress_bar .vc_single_bar .vc_label {
+    top: -43px;
+    font-size: 22px !important;
+    letter-spacing: 0;
+}
+.vc_progress_bar .vc_single_bar {
+    background-color: #fff;
+    border-radius: 50px;
+    height: 10px;
+}
+.vc_progress_bar .vc_single_bar .vc_bar {
+    position: relative;
+    border-radius: 0 50px 50px 0;
+}
