@@ -5,6 +5,10 @@
 //     height: 2px;
 // }
 
+input, textarea, .nf-error-msg {
+    font-family: acumin-pro;
+}
+
 .has-hidden-children {
 	h4 {
 		@extend .is-invisible;

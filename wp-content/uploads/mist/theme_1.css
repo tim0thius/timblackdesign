@@ -219,30 +219,30 @@ ul.epl-author-tabs li.epl-author-current, ul.property_search-tabs li.epl-sb-curr
 .wpsl-search { background: #16c1cf; }
 #wpsl-search-wrap .wpsl-dropdown div { border-color: #16c1cf; }
 .time-table .table > thead { background-color: #16c1cf; }
-body { font-family: Arimo;font-size: 14px;color: #333333;line-height: 25px; }
-.ui-widget, .vc_tta-accordion .vc_tta-panel-title { font-family: Arimo;font-size: 14px;color: #333333;line-height: 25px; }
+body { font-family: ;font-size: 14px;color: #333333;line-height: 25px; }
+.ui-widget, .vc_tta-accordion .vc_tta-panel-title { font-family: ;font-size: 14px;color: #333333;line-height: 25px; }
 .is-sticky .header-main-section { background-color: #ffffff !important; }
 .fullwidth .container { max-width: 1200px; }
 .boxed-header .is-sticky .header-main-section, .boxed .is-sticky .header-main-section { max-width: 1200px; }
 .dropdown-menu { min-width: 200px; }
-h1 { font-family: Oswald;font-size: 48px;font-weight: ;line-height: 62px; }
-h2, .vc_cta3-actions .vc_general.vc_btn3.vc_btn3-style-transparent { font-family: Oswald;font-size: 40px;font-weight: ;line-height: 52px; }
+h1 { font-family: ;font-size: 48px;font-weight: ;line-height: 62px; }
+h2, .vc_cta3-actions .vc_general.vc_btn3.vc_btn3-style-transparent { font-family: ;font-size: 40px;font-weight: ;line-height: 52px; }
 h3, .stats-number, .comment-reply-title { font-family: Oswald;font-size: 32px;font-weight: ;line-height: 42px; }
 h4, legend { font-family: Oswald;font-size: 24px;font-weight: ;line-height: 31px; }
 h5, #bbpress-forums li.bbp-header, #bbpress-forums fieldset.bbp-form legend, #bbpress-forums .bbp-body .bbp-forum-title, #bbpress-forums .bbp-body .bbp-topic-permalink, .vc_tta.vc_general .vc_tta-tab > a, .stats-text, .smile-icon-timeline-wrap .timeline-separator-text .sep-text { font-family: Oswald;font-size: 18px;font-weight: ;line-height: 23px; }
 h6, #bbpress-forums #bbp-single-user-details #bbp-user-navigation a, .sp-scrollable-table-wrapper thead tr th, .rtb-booking-form fieldset legend, button.ubtn { font-family: Oswald;font-size: 16px;font-weight: ;line-height: 21px; }
-.top-menu-navigation .navbar-nav > li > a { font-family: Arimo;font-size: 12px;font-style: normal;font-weight: 700;line-height: 12px; }
-.header-skin-light.header-transparent .top-menu-navigation .navbar-nav > li > a { font-family: Arimo;font-size: 12px;font-style: normal;font-weight: 700;line-height: 12px; }
-.zozo-main-nav > li > a { font-family: Arimo;font-size: 14px;font-style: normal;font-weight: 400; }
-.zozo-main-nav .dropdown-menu > li > a, .zozo-main-nav .dropdown-menu .sub-menu a, .zozo-main-nav .zozo-megamenu-submenu li > a, .zozo-main-nav .zozo-megamenu .menu-item > a { font-family: Arimo;font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px; }
+.top-menu-navigation .navbar-nav > li > a { font-family: ;font-size: 12px;font-weight: ;line-height: 12px; }
+.header-skin-light.header-transparent .top-menu-navigation .navbar-nav > li > a { font-family: ;font-size: 12px;font-weight: ;line-height: 12px; }
+.zozo-main-nav > li > a { font-family: ;font-size: 14px;font-weight: ; }
+.zozo-main-nav .dropdown-menu > li > a, .zozo-main-nav .dropdown-menu .sub-menu a, .zozo-main-nav .zozo-megamenu-submenu li > a, .zozo-main-nav .zozo-megamenu .menu-item > a { font-family: ;font-size: 14px;font-weight: ;line-height: 20px; }
 .zozo-main-nav.navbar-nav .dropdown-menu, .zozo-main-nav.navbar-nav .dropdown-menu .sub-menu, .zozo-main-nav.navbar-nav .sub-menu, .zozo-megamenu-wrapper, .header-side-top-submenu.dropdown-menu { background-color: #ffffff !important;border-top-width: 3px;border-style: solid; }
 .zozo-main-nav.navbar-nav .dropdown-menu .sub-menu { top: -3px !important; }
-.entry-title, .page-title-section .page-title-captions h1.entry-title { font-family: Oswald;font-size: 36px;line-height: 50px; }
-.post h2.entry-title, .category-title { font-family: Oswald;font-size: 26px;line-height: 41px; }
-.widget h3 { font-family: Oswald;font-size: 16px;font-style: normal;font-weight: 400;line-height: 42px; }
-.widget div, .widget p { font-family: Arimo;font-size: 13px;font-style: normal;font-weight: 400;line-height: 25px; }
-.footer-widgets .widget h3 { font-family: Oswald;font-size: 16px;font-style: normal;font-weight: 400;line-height: 42px; }
-.footer-widgets .widget div, .footer-widgets .widget p { font-family: Arimo;font-size: 13px;font-style: normal;font-weight: 400;line-height: 25px; }
+.entry-title, .page-title-section .page-title-captions h1.entry-title { font-family: ;font-size: 36px;line-height: 50px; }
+.post h2.entry-title, .category-title { font-family: ;font-size: 26px;line-height: 41px; }
+.widget h3 { font-family: ;font-size: 16px;line-height: 42px; }
+.widget div, .widget p { font-family: ;font-size: 13px;line-height: 25px; }
+.footer-widgets .widget h3 { font-family: ;font-size: 16px;line-height: 42px; }
+.footer-widgets .widget div, .footer-widgets .widget p { font-family: Arimo;font-size: 13px;line-height: 25px; }
 .header-section .header-main-section { height: 76px; }
 .header-section .header-main-section .navbar-header .navbar-brand, .header-section .header-main-section .zozo-main-nav > li, .header-section .header-main-section .zozo-main-nav > li > a, .header-section .header-main-section li.extra-nav, .header-section .header-main-section li.extra-nav > a, .header-section .header-main-section li.extra-nav i, .header-section .header-main-section .header-toggle-content, .type-header-9 .navbar-nav.zozo-main-bar > li, .type-header-9 .navbar-nav.zozo-main-bar > li a { line-height: 76px; height: 76px; }
 .header-section.type-header-3 .header-main-section { height: 152px; }
