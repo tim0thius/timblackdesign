@@ -19,4 +19,9 @@ jQuery( document ).ready(function($) {
 	$('.action--hide-contact-form').click(function(e){
 		$('body').removeClass('state--show-contact-form')
 	});
+
+	setTimeout(function(){
+		$('.component-button--main, .component-button--link, .block-feature__headline').addClass('fade-in')
+	}, 300)
+	
 });
